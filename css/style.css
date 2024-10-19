@@ -349,3 +349,84 @@ button {
 .text-box button:hover i {
     color: #fff;
 }
+
+/* big */
+.big {
+    margin: 290px 0;
+    margin-bottom: 50px;
+}
+
+.big p {
+    font-size: 260px;
+    line-height: 240px;
+}
+
+.big h2 {
+    font-size: 80px;
+}
+
+/* service */
+
+.services {
+    display: flex;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.services .box {
+    width: 33.33%;
+    margin: 0 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services .box i {
+    font-size: 40px;
+    color: #f9ad4a;
+    background-color: #f7f0e6;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .box h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.services .box p {
+    color: #999;
+}
+
+
+/* testimonials */
+
+.testimonials {
+    margin: 120px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left , .right {
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.comment img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.comment:hover {
+    box-shadow: 0 32px 80px rgba(0,0,0,0.24);
+}
